@@ -1,0 +1,151 @@
+{
+ "name": "SCS",
+ "description": "Supply Chain Solutions",
+ "children": [
+ 
+ 
+ 
+  {
+   "name": "Core Engr.",
+   "description": "Core Engineering",
+   "children": [{
+    "name": "Consult",
+    "description": "They consult people",
+    "children": [
+		{"name": "Lead Time",
+		"description": "Lead Time Analysis",
+		"size": 8000
+		},
+		{"name": "Net. Design",
+		"description": "Network Design",
+		"children": [
+			{"name": "Origin Strategy", "description": "Description Here", "size": 4000, "link": "www.google.com"},
+			{"name": "Node Validation", "description": "Design Networks", "size": 4000, "link": "www.yahoo.com"},
+			{"name": "Audit", "description": "Design Networks", "size": 4000, "link": "www.bing.com"}
+		]},
+		{"name": "Sustainability",
+		"description": "Design Networks",
+		"children": [
+			{"name": "Packaging", "description": "Design Networks", "size": 4000},
+			{"name": "Carbon Reduction", "description": "Design Networks", "size": 4000},
+			{"name": "Analysis", "description": "Design Networks", "size": 4000}
+		]},
+		{"name": "Process Engr",
+		"description": "Process Engineering",
+		"children": [
+			{"name": "Re-Design", "description": "Design Networks", "size": 4000},
+			{"name": "Outsourcing", "description": "Design Networks", "size": 4000}
+		]}
+	]},
+    
+	{
+     "name": "Global Trade",
+     "description": "Trade",
+     "children": [
+		  {"name": "FTA Mgmt",
+		  "description": "FTA Management", 
+		  "children": [
+				{"name": "Implement", "description": "Desc", "size": 4000},
+				{"name": "Advisory", "description": "Desc", "size": 4000}
+		  ]},
+		  {"name": "Advisory",
+		  "description": "desc",
+		  "children": [
+				{"name": "Best Practices", "description": "Desc", "size": 4000}
+		  ]},
+		  {"name": "China Custom", 
+		  "description": "desc", 
+		  "children": [
+				{"name": "CIQ", "description": "Desc", "size": 4000},
+				{"name": "Optimization", "description": "Desc", "size": 4000}
+		  ]},
+		  {"name": "Compliance",
+		  "description": "Compliance Review",
+		  "children": [
+				{"name": "???AVDZT??", "description": "Desc", "size": 4000},
+				{"name": "Advisory", "description": "Desc", "size": 4000}
+			]}
+		]
+    } 
+   ]},
+  
+  
+  
+  
+  
+    {
+   "name": "Ops Research",
+   "description": "Operations Research",
+   "children": [{
+    "name": "Tech Solutions",
+    "description": "Technology Solutions",
+    "children": [
+		{"name": "Optimization",
+		"description": "best case",
+		"children": [
+				{"name": "Load", "description": "Description Here", "size": 4000},
+				{"name": "Transport", "description": "Design Networks", "size": 4000},
+				{"name": "E2E", "description": "Design Networks", "size": 4000}
+			]
+		},
+		{"name": "Data Mgmt",
+		"description": "Data Management",
+		"children": [
+			{"name": "Quality", "description": "Description Here", "size": 4000},
+			{"name": "Storage", "description": "Design Networks", "size": 4000},
+			{"name": "Management", "description": "Design Networks", "size": 4000}
+		]},
+		{"name": "Enhanced Viz",
+		"description": "Enhanced Visibility",
+		"children": [
+			{"name": "RAN Materials", "description": "Design Networks", "size": 4000},
+			{"name": "IN", "description": "Design Networks", "size": 4000},
+			{"name": "OUT", "description": "Design Networks", "size": 4000},
+			{"name": "Production", "description": "Design Networks", "size": 4000}
+		]}
+	]}
+   ]},
+   
+   
+   
+   
+   {
+   "name": "Data Analytics",
+   "description": "desc",
+   "children": [{
+    "name": "4PL",
+    "description": "We choose 3PL",
+    "children": [
+		{"name": "Control Tower",
+		"description": "best case",
+		"children": [
+				{"name": "Risk Management", "description": "Description Here", "size": 4000},
+				{"name": "Exceptional Management", "description": "Design Networks", "size": 4000},
+				{"name": "BCP", "description": "Design Networks", "size": 4000}
+			]
+		},
+		{"name": "In/Out Plan",
+		"description": "In/Out Planning",
+		"children": [
+			{"name": "Stock Planning", "description": "Description Here", "size": 4000},
+			{"name": "Capital Estimates", "description": "Design Networks", "size": 4000},
+			{"name": "Projections", "description": "Design Networks", "size": 4000}
+		]},
+		{"name": "Stop",
+		"description": "not sure",
+		"children": [
+			{"name": "Collaboration", "description": "Design Networks", "size": 4000},
+			{"name": "Analytics", "description": "Design Networks", "size": 4000},
+			{"name": "Work Flow", "description": "Design Networks", "size": 4000}
+		]}
+	]}
+   ]}
+  
+  
+
+  
+  
+  
+  
+ ]
+}
