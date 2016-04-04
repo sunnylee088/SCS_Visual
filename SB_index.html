@@ -63,24 +63,17 @@ var tooltip = d3.select("body")
     .style("z-index", "10")
     .style("opacity", 0);
 
-	
-//IF I WANT NUMBERS, uncomment the first one. 
-function format_number(x) {
-  //return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  return ""
-}
 
-//I no longer wanted () for numbers, so commented that out. 
+
+//Determine what will be on the tooltips.
 function format_description(d) {
   var description = d.description;
-      //return  '<b>' + d.name + '</b></br>'+ d.description + '<br> (' + format_number(d.value) + ')';
 	  return  '<b>' + d.name + '</b></br>'+ d.description;
 }
 
 
 
-
-
+//Sunny's attempt to make go to a website. 
 function goWebpage(d) {
 	var descripton = d.description;
 	var checkString = "http";
@@ -91,21 +84,14 @@ function goWebpage(d) {
 }
 
 
-
-
-
-
-
-
-
-
-
+//Determines text rotation. 
 function computeTextRotation(d) {
 	var angle=(d.x +d.dx/2)*180/Math.PI - 90	
 	
 	return angle;
 }
 
+//Shows the tooltip. 
 function mouseOverArc(d) {
 			 d3.select(this).attr("stroke","black")
 			 
@@ -115,10 +101,12 @@ function mouseOverArc(d) {
             .style("opacity", 0.9);
 }
 
+//Remove the tooltip
 function mouseOutArc(){
 	d3.select(this).attr("stroke","")
 	return tooltip.style("opacity", 0);
 }
+
 
 function mouseMoveArc (d) {
           return tooltip
@@ -194,6 +182,7 @@ d3.json("SB_flare-labeled.json", function(error, root) {
     zoom(p, p);
   }
 
+  //zoom out
   function zoomOut(p) {
     if (!p.parent) return;
     zoom(p.parent, p);
