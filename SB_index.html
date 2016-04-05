@@ -117,7 +117,7 @@ function mouseMoveArc (d) {
 
 //-------------- D3 part ------------------
 var root_ = null;
-d3.json("SB_flare-labeled.json", function(error, root) {
+d3.json("https://raw.githubusercontent.com/sunnylee088/SCS_Visual/master/SB_flare-labeled.json", function(error, root) {
   if (error) return console.warn(error);
   // Compute the initial layout on the entire tree to sum sizes.
   // Also compute the full name and fill color for each node,
